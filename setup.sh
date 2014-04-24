@@ -41,3 +41,7 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+sudo apt-get install apache2
+
+sudo apt-get install mysql-server
+
