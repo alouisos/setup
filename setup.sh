@@ -60,7 +60,8 @@ make
 sudo make install
 
 sudo apt-get install octave-statistics
-octave
-pkg install -forge io
-pkg install -forge statistics
-pkg load statistics
+sudo apt-get istall octave-io
+ 
+
+cd ~
+rm octave-3.8.0.tar.bz2
