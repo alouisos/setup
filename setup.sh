@@ -43,7 +43,9 @@ ln -sf dotfiles/.emacs.d .
 
 sudo apt-get install apache2
 
-sudo apt-get install mysql-server
+sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+sudo mysql_install_db
+sudo mysql_secure_installation
 
 rm -rf setup 
 rm setup_server.sh 
